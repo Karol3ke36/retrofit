@@ -16,6 +16,7 @@
         android:text="Hello World!" />
 
     <RadioGroup
+        android:id="@+id/grupaRadio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" >
 
@@ -43,5 +44,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dalejjj" />
+
+    <TextView
+        android:id="@+id/blad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="50dp"
+        android:text="" />
 
 </LinearLayout>
